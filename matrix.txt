@@ -1,0 +1,59 @@
+"""***************************************************
+Akshara Joshy                          Roll No:5
+S3 IT                                  Date:
+              ADDITION OF 2 MATRIX
+
+***************************************************"""
+
+A=[]
+B=[]
+print("enter the rows and columns of matrix")
+row= int(input("rows : " ))
+column= int(input("Columns: "))
+print("Enter first matrix")
+for i in range(0,row):
+	r=[]
+	for j in range(0,column):
+		c=int(input())
+		r.append(c)
+	A.append(r)
+print(A)
+print("Enter second matrix")
+for i in range(0,row):
+	r=[]
+	for j in range(0,column):
+		a=int(input())
+		r.append(a)
+	B.append(r)
+print(B)
+result=[]
+for i in range(0,row):
+	r=[]
+	for j in range(0,column):
+		z=A[i][j]+B[i][j]
+		r.append(z)
+	result.append(r)
+print("the result: ")
+print(result)
+
+"""***************************************************************
+SAMPLE OUTPUT
+
+enter the rows and columns of matrix
+rows : 2
+Columns: 2
+Enter first matrix
+3
+4
+6
+2
+[[3, 4], [6, 2]]
+Enter second matrix
+3
+7
+6
+5
+[[3, 7], [6, 5]]
+the result:
+[[6, 11], [12, 7]]
+***************************************************************"""

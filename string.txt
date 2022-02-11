@@ -1,0 +1,15 @@
+"""******************************************************
+Akshara Joshy                        ROLL No:5
+S3 IT                                Date:
+                 OCCURENCE
+******************************************************"""
+string=input("enter the string: ")
+sub=input("enter substring: ")
+c=string.count(sub)
+print("number of repetition:", c)
+"""******************************************************
+SAMPLE OUTPUT
+enter the string: good morning,you look so good today
+enter substring: good
+number of repetition: 2
+******************************************************"""

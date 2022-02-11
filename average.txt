@@ -1,0 +1,39 @@
+"""**********************************************************
+Akshara Joshy                                   Roll No:5
+S3 IT                                           Date:
+              FIND THE SUM,AVERAGE AND SQUARE
+**********************************************************"""                 
+list=[]
+slist=[]
+n=int(input("Enter the size of list:"))
+print("Enter the value of list:")
+for x in range (0,n):
+	value=int(input())
+	list.append(value)
+print(list)
+count=0
+for y in list:
+	count=count+y
+for y in list:
+	square=y**2
+	slist.append(square)
+print("The sum of elements are:",count)
+print("The average of elements are:",count/n)
+print("The square list is:",slist)
+
+
+"""***********************************************************
+SAMPLE OUTPUT
+
+Enter the size of list:5
+Enter the value of list:
+5
+8
+7
+0
+4
+[5, 8, 7, 0, 4]
+The sum of elements are: 24
+The average of elements are: 4.8
+The square list is: [25, 64, 49, 0, 16]
+***********************************************************"""

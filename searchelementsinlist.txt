@@ -1,0 +1,20 @@
+"""*******************************************************
+Akshara Joshy                              Roll No:5
+S3 IT                                      Date:
+                 SEARCH ELEMENTS IN LIST
+*******************************************************"""
+list=input("Enter the elements in the list:")
+print("\n")
+key=input("Enter the number to search:")
+if key in list:
+	print(key," is present in list")
+else:
+	print(key,"is not present in list")
+"""*******************************************************
+SAMPLE OUTPUT
+Enter the elements in the list:2 4 6 8 5 0
+
+
+Enter the number to search:4
+4  is present in list
+*******************************************************"""

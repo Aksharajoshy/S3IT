@@ -1,0 +1,63 @@
+"""******************************************************************
+Akshara Joshy                                      Roll No:5
+S3 IT                                              Date:
+                         CALCULATOR
+******************************************************************"""
+
+
+def add(P,Q):    
+   return P+Q  
+def subtract(P,Q):  
+   return P-Q  
+def multiply(P,Q):  
+   return P*Q  
+def divide(P,Q):  
+   return P/Q
+def remainder(P,Q):
+   return P%Q
+def exponent(P,Q):
+   return P**Q  
+print ("Please select the operation.")    
+print ("a. Add")    
+print ("b. Subtract")    
+print ("c. Multiply")    
+print ("d. Divide")  
+print ("e. Remainder")  
+print ("f. Exponent")
+choice = input("Please enter choice (a/ b/ c/ d/e/f): ")        
+num_1 = int (input ("Please enter the first number: "))    
+num_2 = int (input ("Please enter the second number: "))    
+   
+if choice == 'a':    
+   print (num_1, "+", num_2, "= ", add(num_1, num_2))    
+   
+elif choice == 'b':    
+   print (num_1, "-", num_2, "= ", subtract(num_1, num_2))    
+   
+elif choice == 'c':    
+   print (num_1, "*", num_2, "= ", multiply(num_1, num_2))    
+elif choice == 'd':    
+   print (num_1, "/", num_2, "= ", divide(num_1, num_2))
+elif choice == 'e':
+   print (num_1, "%", num_2, "= ", remainder(num_1, num_2))
+elif choice == 'f':
+   print (num_1, "**", num_2, "= ", exponent(num_1, num_2))  
+else:    
+   print ("This is an invalid input")  
+
+
+"""*******************************************************************
+SAMPLE OUTPUT
+
+Please select the operation.
+a. Add
+b. Subtract
+c. Multiply
+d. Divide
+e. Remainder
+f. Exponent
+Please enter choice (a/ b/ c/ d/e/f): d
+Please enter the first number: 40
+Please enter the second number: 5
+40 / 5 =  8.0
+*****************************************************************"""

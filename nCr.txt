@@ -1,0 +1,21 @@
+"""**************************************************
+Akshara Joshy                          Roll No:5
+S3 IT                                  Date:
+                   nCr
+**************************************************"""
+def nCr(n,r):
+	return(fact(n)/(fact(r)*fact(n-r)))
+def fact(n):
+	res=1
+	for i in range(2,n+1):
+		res=res*i
+	return res
+n=int(input("Enter the first number:"))
+r=int(input("Enter the second number:"))
+print (int(nCr(n,r)))
+"""**************************************************
+SAMPLE OUTPUT
+Enter the first number:5
+Enter the second number:2
+10
+**************************************************"""
